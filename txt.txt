@@ -1,0 +1,11 @@
+pour les notifiaction
+1 = commission
+2 = epargne
+3 = retrait
+4 = demande d'adhésion groupe de ristourne
+5 = creer carnet de loyer
+
+pour recupération des fonds
+1 = epargne
+2 = reseaux
+3 = chop 

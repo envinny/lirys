@@ -1,0 +1,367 @@
+body{
+	color: #37474F;
+	padding-bottom: 4%;
+}
+/*pour la connexion*/
+#div_ins{
+	background: url("../../../../img/inscription.png");
+	display: inline-block;
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background-repeat: repeat-y;
+	/*position: fixed;*/
+	z-index: 1003;
+	margin-top: 10%;
+	padding: 10%;
+	/*left: 12%;*/
+	/*margin: 0% 12%;*/
+}
+#l_ins{
+	color: #37474F;
+	font-size: 18px;
+}
+#div_ins_0{
+	/*background: url("../../../../img/inscription.png");*/
+	/*display: inline-block;*/
+	/*background-size: 100%;*/
+	/*background-repeat: repeat-y;*/
+}
+#div_ins_00{
+	margin-top: 2%;
+}
+#input_txt{
+	margin-bottom: 1%;
+	width: 75%;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 2%;
+	resize: none;
+	font-size: 16px;
+	color: #607D8B;
+	border: none;
+	box-shadow: 0px 0px 2px #ECEFF1;
+}
+#btn_ins_1{
+	width: 30%;
+	background-color: #629024;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bolder;
+	padding: 1%;
+	border-radius: 10px;
+	margin-top: 1%;
+}
+/*pour laccueil*/
+#div_option{
+	background-color: #7CB342; 
+	padding: 0.5%;
+	text-align: center;
+	position: sticky;
+	z-index: 1100;
+	top: 0%;
+}
+#span_icon_opt{
+	/*background-color: blue;*/
+	display: inline-block;
+	width: 20px;height: 20px;
+	margin: 0% 1%;
+	position: relative;
+	margin: 0% 1%;
+}
+#l_not{
+	position: absolute;
+	color: #7CB342;
+	bottom: 0%;
+	left: 0%;
+	background-color: #fff;
+}
+#div_admin{
+}
+#div_rtb{
+	border-left: 2px solid #C5E1A5;
+}
+#div_mf{
+	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#footer{
+	width: 100%;
+	display: inline-block;
+	position: fixed;
+	bottom: 0%;
+	z-index: 1010;
+}
+#l_txt{
+	font-weight: normal;
+}
+#div_acul{
+	/*margin: 0%;*/
+	margin-top: 1%;
+}
+#div_cp{
+	color: #263238;
+	background-color: #CFD8DC;
+	border: 2px solid #90A4AE;
+	border-radius: 10px;
+	margin-bottom: 4%;
+}
+#table_ins_att{
+	width: 100%;
+	text-align: center;
+}
+#div_table_ins_att{
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border: 1px solid #B0BEC5;
+	overflow-y: scroll;
+	height: 500px;
+
+}
+#l_ins_att{
+	color: #7CB342;
+	font-size: 18px;
+	font-weight: normal;	
+}
+/*ajouter un fieu*/
+#div_ins_ins{	
+	text-align: left;
+	padding-left: 2%;
+}
+#input_txt_ins{
+	margin-bottom: 1%;
+	width: 50%;
+	font-weight: normal;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1.5%;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 14px;
+	color: black;
+	border: none;
+	box-shadow: 0px 0px 2px #ECEFF1;
+}
+#select_ins{
+	margin-bottom: 1%;
+	width: 24%;
+	font-weight: normal;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1.5%;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 14px;
+	color: #607D8B;
+	border: none;
+	margin-right: 1%;
+	box-shadow: 0px 0px 2px #ECEFF1;
+
+}
+/*pour voir le compte*/
+#tb_cmpte{
+	width: 100%;
+}
+/*pour lorgannigramme*/
+
+/*pour lorganigramme*/
+#div_organigramme{
+	background-color: #ECEFF1;
+	border: 1px solid #CFD8DC;
+}
+#div_org{
+	display: inline-block;
+	border: none; 
+	/*width: 1000px; */
+	overflow: hidden; white-space: nowrap; vertical-align: top;
+}
+#div_n1{
+	border: 2px dotted #CFD8DC; width: 1250px; vertical-align: top;
+	text-align: center;
+	display: inline-block;
+}
+#div_n2{
+	/*border: 2px dashed #B0BEC5; */
+	border: 2px dashed #B0BEC5;
+	vertical-align: top; width: 400px;
+	display: inline-block;
+}
+#div_n3{
+	border: 3px double #90A4AE; width: 125px; vertical-align: top;
+	display: inline-block;
+}
+#div_n4{
+	width: 33px; vertical-align: top;
+	display: inline-block;
+}
+#span_1, #span_2, #span_3,#span_4{
+	display: inline-block;
+	height: 100px;
+}
+#span_1{
+	width: 25px;
+	border: 2px solid #EF9A9A;
+	display: inline-block;
+	margin-bottom: 1%;
+}
+#span_2{
+	border: 2px solid #FFCC80;
+	display: inline-block;
+	width: 24px;
+	margin-bottom: 1%;
+}
+#span_3{
+		border: 2px solid #FFF59D;
+		width: 100%;
+		display: inline-block;
+		width: 24px;
+	margin-bottom: 1%;
+}
+	#span_4{
+		border: 2px solid #A5D6A7;
+		width: 100%;
+		display: inline-block;
+		width: 24px;
+	margin-bottom: 1%;
+	}
+#l_users_1{
+
+	writing-mode: vertical-lr;
+	/*writing-mode: vertical-rl;*/
+	text-align: center;
+}
+#legend_org{
+	background-color: #629024;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #fff;
+	width: 100%;
+}
+/*pour 
+la 
+messagerie*/
+#f_publi{
+	border: 2px solid #629024;
+	clear: both;
+	padding: 1%;
+	padding-top: 2%;
+	margin-top: 1px;
+	height: 500px;
+	overflow-y: scroll;
+	border-radius: 50px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top: none;
+	border-bottom: none;
+}
+#l_publie{
+	font-weight: 900;
+	color: #629024;
+	font-size: 16px;
+	padding: 1%;
+	width: 50%;
+	margin: 0px;
+	/*width: 30%;*/
+}
+.div_conv_1{
+	background-color: #9CCC65;
+	display: inline-block;
+	padding: 2%;
+	border: 2px solid #8BC34A;
+	box-shadow: 0px 0px 2px #8BC34A;
+	border-radius: 10px;
+	float: right;
+	color: #263238;
+	width: 50%;
+	margin: 1%;
+}
+.div_conv_2{
+	background-color: #AED581;
+	display: inline-block;
+	padding: 2%;
+	border: 2px solid #9CCC65;
+	box-shadow: 0px 0px 2px #9CCC65;
+	float: left;
+	color: #263238;
+	border-radius: 10px;
+	width: 50%;
+	margin: 1%;
+}
+.hr_conv{
+	border: 2px solid #E8EAF6;
+}
+#btn_cnx{
+	background-color: #fff; border-radius: 20px;text-align: center;color: #629024;font-size: 14px;padding: 1%;display: inline-block;
+}
+/*messagerie*/
+
+#barre_menu{
+	background-color: #629024; 
+	padding: 0.5%;
+}
+#img_bar_menu{
+	width: 100%;
+	/*margin-left: 20%;*/
+}
+#input_rec{
+	background-color: #EEEEEE;
+	border: none;
+	box-shadow: 0px 0px 2px #E0E0E0;
+	border-radius: 20px;
+	padding: 1%;
+	padding-left: 10%;
+	width: 74%;
+	color: #607D8B;
+}
+#btn_rec{
+	border: none;
+	width: 24%;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #629024;
+	box-shadow: 0px 0px 2px #629024;
+	border-radius: 20px;
+	padding: 1% 2%;
+	color: #fff;
+
+}
+/*pour les notfication*/
+#msgrie{
+	background-color: #AED581;
+	padding: 0.5% 1%;
+	color: 	#fff;
+	font-weight: bolder;
+	border-bottom: 2px solid #fff;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-bottom: 0.5px;
+
+}
+#l_nbre_msg{
+	font-size: 12px;
+}
+#nom_prof, #div_lis_conv{
+	font-size: 14px;
+}
+/*messagerie*/
+#nom_prof{
+	border-radius: 10px;
+	background-color: #fff;
+	color: #AED581;
+}
+#td_fadd{
+	padding: 1% 2%;
+}
+#table_fadd{
+	margin-top: 2%;
+	width: 50%;
+}
+#table_users{
+	margin-top: 2%;
+	width: 100%;
+
+}

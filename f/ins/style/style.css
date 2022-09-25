@@ -1,0 +1,343 @@
+body{
+	background-color: #F5F5F5;
+}
+img{
+	width: 100%;
+}
+#br_prix{
+	display: none;
+}
+#barre_menu{
+	background-color: #629024; display: inline-block;width: 100%;position: sticky; top: 0px;z-index: 1001;
+	padding: 0.5%;
+}
+#img_bar_menu{
+	width: 55%;
+	/*margin-left: 20%;*/
+}
+#btn_0{
+	width: 30%; cursor: pointer;
+}
+#btn_00{
+	width: 40%;
+}
+#btn_cnx{	
+}
+#l_matching_ns{
+	font-weight: normal;color: #fff;font-size: 15px;
+}
+#matching{
+	/*padding-right: 20%;padding-left: 0%;*/
+}
+#cest_d_l_m{
+	font-size: 30px;color: #fff;
+}
+#img_matching{
+	width: 50%;margin-top: 5%;margin-bottom: 2%;
+}
+#div_matching{
+	display: inline-block;width: 100%;background: url(../img/bg_2.png);background-repeat: no-repeat; background-size: 100%; padding-top: 35%;
+	margin-bottom: 2%;
+	padding-bottom: 20%;
+}
+#l_matching{
+	font-weight: normal;color: #fff;font-size: 15px;
+}
+.l_titre{
+	color: #fff;
+	font-size: 25px;
+}
+.l_txt_titre{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+}
+.img_titre{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+}
+#btn_inscription:hover{
+	box-shadow: 0px 0px 5px #212;
+}
+#span_barre_menu{
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	padding: 1%;
+	display: inline-block;
+}
+#span_art{
+	display: inline-block;
+	width: 25%;
+	margin: 2%;
+	padding: 1%;
+	background-color: #FAFAFA;
+	box-shadow: 0px 0px 5px #607D8B;
+	border-radius: 10px;
+}
+#img_art{
+	width: 50%;
+}
+#l_art_titre{
+	font-size: 25px; color: #263238;
+}
+#l_art{
+	font-size: 20px;
+	color: #263238;
+}
+#l_txt_art{
+	font-size: 14px;
+	color: #263238;
+	font-weight: normal;
+}
+#span_art_marn{
+	/*border: 1px solid red;*/
+	/*display: inline-block;*/
+}
+#span_art_marn_0{
+	width: 50%;
+	border: none;
+	display: inline-block;
+}
+#span_art_marn_1{
+	display: inline-block; width: 48%;padding-left: 2%;float: right;margin-top: 5%;
+}
+#span_art_marn_2{
+	display: inline-block; width: 50%;padding-left: 10%;float: left;margin-top: 5%;
+}
+#span_art_marn_3{
+	display: inline-block; width: 50%;	
+}
+#span_art_marn_4{
+	display: inline-block; width: 50%;
+}
+#span_art_marn_5{
+	display: inline-block; width: 48%;padding-left: 2%;float: right;margin-top: 5%;;
+}
+#span_art_marn_6{
+	display: inline-block; width: 50%;padding-left: 12%;float: left;margin-top: 5%;
+}
+#span_art_marn_7{
+	display: inline-block; width: 50%;
+}
+#div_marn{
+	/*border-top: 2px solid rgba(98, 144, 36, 0.5);border-bottom: 2px solid rgba(98, 144, 36, 0.5);*/
+}
+#affiche{
+	background: url(../img/Background_head.png); display: inline-block; width: 100%; background-size: 100%; background-repeat: no-repeat;margin-top: -1%;position: relative;border: none;
+	padding-bottom: 12%;
+}
+#btn_art{
+	width: 30%;
+}
+#span_chiffre{
+	display: inline-block;
+	/*border: 1px solid red;*/
+	width: 20%;
+	text-align: left;
+	padding: 2%;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	margin: 0% 2%;
+	color: #629024;
+}
+#l_qsn{
+	font-size: 35px;color: #629024;
+}
+#l_chiffre{
+	font-size: 20px;
+}
+#img_avis{
+	width: 40%;
+}
+#l_c_reussite{
+	font-size: 14px;
+	font-weight: normal;
+}
+#l_archive{
+	font-size: 20px;
+	font-weight: normal;
+	color: #607D8B;
+}
+#span_archive{
+	background-color: #CFD8DC;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin: 0% 1%;
+	vertical-align: text-bottom;
+	text-align: left;
+	padding: 1%;
+	margin-bottom: 2%;
+}
+#pre{
+	font-size: 20px;color: #607D8B;
+}
+#div_img{
+	height: 400px;overflow: scroll;
+}
+#div_nos_ary{
+	background-color: #629024;font-size: 30px;font-weight: bolder;color: #fff;
+}
+#legend{
+	border : 1px solid #629024;width: 60%;margin: 0% 20%;background-color: #629024;padding: 1% 2%;color: #fff;border-radius: 10px;vertical-align: top;
+}
+#span_foot_contact{
+	display: inline-block;
+	width: 49%;
+}
+#div_ins{
+	background: url("../img/inscription.png");
+	display: inline-block;
+	/*border: 1px solid red;*/
+	width: 75%;
+	background-size: 100%;
+	background-repeat: repeat-y;
+	position: fixed;
+	z-index: 1003;
+	left: 12%;
+	/*margin: 0% 12%;*/
+}
+#back{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1002;
+}
+#img_logo_ins{
+	width: 25%;
+	margin-bottom: 1%;
+}
+#div_ins_0{
+	display: inline-block;width: 100%;
+	margin-top: 10%;
+}
+#div_ins_1{
+	display: inline-block;
+	width: 100%;
+	margin-top: 15%;
+	padding-left: 10%;
+	text-align: left;
+}
+#l_ins{
+	color: #424242;
+	font-size: 30px;
+}
+#l_ins_0{
+	color: #607D8B;
+	font-size: 16px;
+	/*font-weight: normal;*/
+}
+#input_txt{
+	margin-bottom: 1%;
+	width: 50%;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1%;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+	border: none;
+	box-shadow: 0px 0px 2px #ECEFF1;
+}
+#btn_ins_1{
+	width: 30%;
+	background-color: #629024;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bolder;
+	padding: 1%;
+	border-radius: 10px;
+	margin-top: 1%;
+}
+#l_ins_1{
+	color: #B0BEC5;
+	font-size: 14px;
+}
+#l_ins_2{
+	color: #607D8B;
+	font-size: 14px;
+	font-weight: normal;
+}
+/*inscription*/
+
+#div_ins_ins{
+	display: inline-block;width: 100%;
+	text-align: left;
+	padding-left: 2%;
+}
+#img_logo_ins_ins{
+	width: 15%;
+	margin-bottom: 1%;
+}
+#l_ins{
+	color: #424242;
+	font-size: 20px;
+}
+#input_txt_ins{
+	margin-bottom: 1%;
+	width: 50%;
+	font-weight: normal;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1.5%;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 14px;
+	color: black;
+	border: none;
+	box-shadow: 0px 0px 2px #ECEFF1;
+}
+#select_ins{
+	margin-bottom: 1%;
+	width: 24%;
+	font-weight: normal;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1.5%;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 14px;
+	color: #607D8B;
+	border: none;
+	margin-right: 1%;
+	box-shadow: 0px 0px 2px #ECEFF1;
+
+}
+#div_ins_ins_0{
+	display: inline-block;
+	width: 100%;
+	margin-top: 0%;
+	padding-left: 10%;
+	text-align: left;
+
+}
+
+@media all and (min-device-width: 300px) and (max-device-width: 576px) {
+	body{
+		/*background-color: red;*/
+	}
+	#span_chiffre{
+		display: inline-block;
+		/*border: 1px solid red;*/
+		width: 28%;
+		text-align: left;
+		padding: 2%;
+		border-top-left-radius: 50px;
+		border-bottom-right-radius: 50px;
+		margin: 0% 2%;
+		color: #629024;
+	}
+	#l_c_reussite{
+		font-size: 10px;
+		font-weight: normal;
+	}
+	#br_prix{
+		display: block;
+	}
+
+}

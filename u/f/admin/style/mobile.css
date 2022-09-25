@@ -1,0 +1,120 @@
+body{
+	padding-bottom: 10%;
+}
+/*pour laccueil*/
+#div_option{
+	background-color: #7CB342; 
+	padding: 0.5%;
+	text-align: center;
+	position: sticky;
+	z-index: 1020;
+	top: 0%;
+}
+#btn_rec{
+	border: none;
+	width: 24%;
+	font-size: 8px;
+	font-weight: bold;
+	background-color: #629024;
+	box-shadow: 0px 0px 2px #629024;
+	border-radius: 20px;
+	padding: 0.5% 1%;
+	color: #fff;
+
+}
+#span_barre_menu{
+	font-size: 12px;
+}
+#div_cp{
+	color: #263238;
+	background-color: #CFD8DC;
+	border: 2px solid #90A4AE;
+	border-radius: 10px;
+	margin-bottom: 1%;
+}
+#div_rtb{
+	border: none;
+	border-top: 5px solid #C5E1A5;
+	margin-top: 5%;
+}
+#btn_cnx{
+	background-color: #fff; border-radius: 20px;text-align: center;color: #629024;font-size: 12px;padding: 0.5%;display: inline-block;
+}
+#div_mf{
+	margin-top: 5%;
+}
+#img_btn{
+	width: 40%;
+}
+#btn_ins_1{
+	width: 50%;
+}
+#l_ins{
+	color: #37474F;
+	font-size: 14px;
+}
+#footer{
+	width: 100%;
+	display: inline-block;
+	position: fixed;
+	bottom: 0%;
+	z-index: 1010;
+}
+/*ajouter un fieu*/
+#div_ins_ins{
+	display: inline-block;
+	text-align: left;
+	padding-left: 2%;
+}
+#input_txt_ins{
+	margin-bottom: 1%;
+	width: 75%;
+	font-weight: normal;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1.5%;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 14px;
+	color: black;
+	border: none;
+	box-shadow: 0px 0px 2px #ECEFF1;
+}
+#select_ins{
+	margin-bottom: 1%;
+	width: 36.5%;
+	font-weight: normal;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1.5%;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 14px;
+	color: #607D8B;
+	border: none;
+	margin-right: 1%;
+	box-shadow: 0px 0px 2px #ECEFF1;
+
+}
+#div_table_ins_att{
+	border-radius: 10px;
+	border: 1px solid #B0BEC5;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	height: 500px;
+
+}
+#table_ins_att{
+	width: 1000px;
+	text-align: center;
+}
+#td_fadd{
+	padding: 1% 2%;
+}
+#table_fadd{
+	margin-top: 2%;
+	width: 75%;
+}
+#legend_org{
+	margin-top: 5%;
+}

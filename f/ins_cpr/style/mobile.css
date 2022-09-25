@@ -1,0 +1,308 @@
+body{
+}
+#menu_art{
+	position: absolute;
+	top: 0%;
+	text-align: center;
+	background-color: rgba(98, 144, 36, 0.5);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#div_qsn{
+	margin-top: 30%;
+}
+#btn_0{
+	width: 40%; cursor: pointer;
+}
+#btn_00{
+	width: auto;
+}
+#div_matching{
+	display: inline-block;width: 100%;background: url(../img/bg_2.png);background-repeat: no-repeat; background-size: 100%; padding-top: 35%;
+	margin-bottom: 2%;
+}
+#span_barre_menu{
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	padding: 0.5%;
+	display: inline-block;
+}
+#barre_menu{
+	background-color: #629024; 
+	display: inline-block;width: 100%;
+	position: static;
+	padding: 0.5%;
+}
+#barre_menu{
+	/*background-color: rgba(98, 144, 36, 1);*/
+}
+#img_bar_menu{
+	width: 55%;
+	margin-left: 0%;
+}
+#matching{
+}
+#l_matching{
+	font-weight: normal;color: #fff;font-size: 14px;
+}
+#img_matching{
+	margin-top: 0%;
+}
+#cest_d_l_m{
+	font-size: 20px;
+}
+#l_art_titre{
+	font-size: 20px;
+}
+#l_matching_ns{
+	font-weight: normal;color: #263238;font-size: 15px;
+}
+#br_matching{
+	display: none;
+}
+#l_art{
+	font-size: 14px;
+}
+#span_art{
+	display: inline-block;
+	width: 27%;
+	margin: 1%;
+	padding: 0.5%;
+}
+#img_art{
+	width: 75%;
+	margin-bottom: 2%;
+}
+#img_avis{
+	width: 100%;
+}
+#div_objecif{
+	margin-top: 5%;
+}
+#div_marn{
+	/*border: 1px solid red;*/
+	/*border-top: 2px solid rgba(98, 144, 36, 0.5);*/
+	display: inline-block;
+	margin-top: 2%;
+}
+#span_art_marn_0{
+	width: 49%;
+	/*border: 3px solid red;*/
+	display: inline-block;
+	border: none;
+	float: left;
+	/*border-top: 2px solid rgba(98, 144, 36, 0.5);*/
+}
+#span_art_marn_1{
+	width: 50%;
+	display: inline-block;
+	float: none;
+	/*border: 3px solid blue;*/
+	margin-top: 1%;
+}
+#span_art_marn_2{
+	width: 50%;
+	padding-left: 2%;
+	float: none;
+}
+#span_art_marn_3{
+	width: 49%;	
+	float: right;
+}
+#span_art_marn_4{
+	width: 49%;
+	float: left;
+}
+#span_art_marn_5{
+	width: 50%;
+	float: none;
+}
+#span_art_marn_6{
+	width: 50%;
+	padding-left: 2%;
+	float: none;
+}
+#span_art_marn_7{
+	width: 49%;
+	float: right;
+}
+#btn_art{
+	width: 50%;
+}
+#l_titre{
+	font-size: 18px;
+}
+#l_qsn{
+	font-size: 25px;
+}
+#div_chiffre{
+	margin-top: 5%;
+}
+#span_chiffre{
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#l_chiffre{
+	font-size: 18px;
+}
+#l_c_reussite{
+	font-size: 14px;
+	font-weight: normal;
+}
+#span_archive{
+	background-color: #CFD8DC;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	margin: 0% 1%;
+	vertical-align: text-bottom;
+	text-align: left;
+	padding: 1%;
+	margin-bottom: 2%;
+}
+#pre{
+	font-size: 14px;color: #607D8B;
+}
+#div_img{
+	height: 200px;overflow: scroll;
+}
+#div_nos_ary{
+	font-size: 20px;;
+}
+#legend{
+	border : 1px solid #629024;width: 75%;margin: 0% 10%;background-color: #629024;padding: 1% 2%;color: #fff;border-radius: 10px;vertical-align: top;
+}
+#span_foot_contact{
+	display: inline-block;
+	width: 100%;
+}
+#img_foot{
+	width: 100%;
+	margin-bottom: 10%;
+}
+/*la partie
+de linscription*/
+#div_ins{
+	background: url("../img/inscription.png");
+	display: inline-block;
+	/*border: 1px solid red;*/
+	width: 100%;
+	background-size: 100%;
+	background-repeat: repeat-y;
+	/*margin: 0% 12%;*/
+	position: fixed;
+	left: 0%;
+	z-index: 1003;
+}
+#img_logo_ins{
+	width: 50%;
+	margin-bottom: 1%;
+}
+#div_ins_0{
+	display: inline-block;width: 100%;
+	margin-top: 10%;
+}
+#div_ins_1{
+	display: inline-block;
+	width: 100%;
+	margin-top: 15%;
+	padding-left: 10%;
+	text-align: left;
+}
+#l_ins{
+	color: #424242;
+	font-size: 20px;
+}
+#l_ins_0{
+	color: #607D8B;
+	font-size: 14px;
+	/*font-weight: normal;*/
+}
+#input_txt{
+	margin-bottom: 3%;
+	width: 75%;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1%;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	border: none;
+	box-shadow: 0px 0px 2px #ECEFF1;
+	font-weight: normal;
+}
+#btn_ins_1{
+	width: 50%;
+	background-color: #629024;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bolder;
+	padding: 1%;
+	border-radius: 10px;
+	margin-top: 1%;
+}
+#l_ins_1{
+	color: #B0BEC5;
+	font-size: 14px;
+}
+#l_ins_2{
+	color: #607D8B;
+	font-size: 14px;
+	font-weight: normal;
+}
+/*inscription*/
+
+#div_ins_ins{
+	display: inline-block;width: 100%;
+	text-align: left;
+	padding-left: 2%;
+}
+#img_logo_ins_ins{
+	width: 15%;
+	margin-bottom: 1%;
+}
+#l_ins{
+	color: #424242;
+	font-size: 20px;
+}
+#input_txt_ins{
+	margin-bottom: 1%;
+	width: 80%;
+	font-weight: normal;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1.5%;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 14px;
+	color: black;
+	border: none;
+	box-shadow: 0px 0px 2px #ECEFF1;
+}
+#select_ins{
+	margin-bottom: 1%;
+	width: 39%;
+	font-weight: normal;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+	padding: 1.5%;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 14px;
+	color: #607D8B;
+	border: none;
+	margin-right: 1%;
+	box-shadow: 0px 0px 2px #ECEFF1;
+
+}
+#div_ins_ins_0{
+	display: inline-block;
+	width: 100%;
+	margin-top: 0%;
+	padding-left: 10%;
+	text-align: left;
+
+}
